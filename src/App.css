@@ -1,0 +1,102 @@
+.App {
+  text-align: center;
+  width : 60%;
+  margin:10% auto;
+}
+
+.App-button{
+  margin : 1.66%;
+  width : 20%;
+  height: 50px;
+  background-color: #000000;
+  color: white;
+  border-radius: 5px;
+  outline: none;
+  font-size: 0.9em;
+  box-shadow: 8px 8px 5px #aaaaaa;
+}
+
+.App-button:hover{
+  background-color:#2e2e2e;
+}
+
+.App-button:active{
+  background-color: #555555;
+  box-shadow: 8px 8px 5px #858585;
+  transform: translateY(2px);
+}
+
+.App-display{
+  margin: 3% 5%;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-weight: bolder;
+}
+
+.App-display span{
+  font-size: 2.2em;
+}
+
+.GoodFeedback{
+  color : rgb(11, 133, 11);
+}
+
+.BadFeedback{
+  color : rgb(219, 72, 53);
+}
+
+.NeutralFeedback{
+  color : rgb(212, 167, 19);
+}
+
+.App-reset button{
+  margin : 2% auto;
+  width : 30%;
+  height: 50px;
+  background-color: #1CA3B9;
+  color: white;
+  border-radius: 10px;
+  outline: none;
+  font-size: 0.9em;
+  box-shadow: 8px 8px 5px #aaaaaa;
+}
+
+.App-reset button:hover{
+  background-color:rgb(25, 140, 158);
+}
+
+.App-reset button:active{
+  background-color: rgb(24, 136, 153);
+  transform: translateY(2px);
+  box-shadow: 8px 8px 5px #979696;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+@media only screen and (max-width : 767px){
+  .App {
+    margin: 25% auto;
+    width : 80%;
+  }
+
+  .App-button{
+    margin :4% 3%;
+    width : 25%;
+  }
+
+  .App-reset button{
+    margin : 5% auto;
+    width : 50%;
+  }
+}
